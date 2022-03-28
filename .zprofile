@@ -10,6 +10,3 @@ export PATH
 # setting path for VS Code
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin" 
 export PATH="/Users/lesterhoutenbos/.local/share/solana/install/active_release/bin:$PATH"
-
-# vim 
-export VIM="nvim"

@@ -1,0 +1,9 @@
+[user]
+	email = lester.houtenbos@fourstroke.io
+	name = Lester Houtenbos
+[credential]
+	helper = cache
+[alias]
+	lag = log --oneline --graph
+[core]
+	editor = vim

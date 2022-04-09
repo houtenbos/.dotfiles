@@ -35,11 +35,11 @@ Plug 'hrsh7th/cmp-buffer' " buffer completion
 Plug 'hrsh7th/cmp-path' " path completion
 Plug 'hrsh7th/cmp-cmdline' " command line completion
 Plug 'hrsh7th/cmp-nvim-lsp' " language completion
-Plug 'saadparwaiz1/cmp_luasnip' " snippet completions
+Plug 'hrsh7th/cmp-nvim-lua' " lua completion
 
 " Snippets
+Plug 'saadparwaiz1/cmp_luasnip' " snippet completions
 Plug 'L3MON4D3/LuaSnip' " snippet engine
-Plug 'rafamadriz/friendly-snippets' " a bunch of snippets to use
 
 " Syntax highlighting
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}

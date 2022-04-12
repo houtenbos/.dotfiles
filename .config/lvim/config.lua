@@ -145,7 +145,8 @@ lvim.builtin.treesitter.highlight.enabled = true
 
 lvim.plugins = {
   {"folke/lua-dev.nvim"},
-  {"rafcamlet/nvim-luapad"}
+  {"rafcamlet/nvim-luapad"},
+  {"tpope/vim-surround"}
 -- Additional Plugins
     -- {"folke/tokyonight.nvim"},
     -- {

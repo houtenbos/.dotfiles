@@ -28,9 +28,12 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 # Add path to lvim
 PATH=$PATH:~/.local/bin
+PATH=$PATH:~/.config/bin
 
 # alias
 alias config='/usr/bin/git --git-dir=/Users/lesterhoutenbos/.cfg/ --work-tree=/Users/lesterhoutenbos'
 alias la='ls -a'
 alias vim=lvim
-alias tc='tmux attach'
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

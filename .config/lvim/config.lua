@@ -30,11 +30,16 @@ lvim.keys.normal_mode["<F2>"] = ":VimspectorReset<cr>"
 lvim.keys.normal_mode["<space><F5>"] = ":w | !npm run build<cr> | <Plug>VimspectorContinue"
 lvim.keys.normal_mode["<F5>"] = "<Plug>VimspectorContinue"
 
--- nvim
+-- nvimtree
 lvim.builtin.nvimtree.setup.actions.open_file.resize_window = true
 lvim.builtin.nvimtree.setup.renderer = {}
 lvim.builtin.nvimtree.setup.respect_buf_cwd = nil
+lvim.builtin.nvimtree.setup.filters.custom = { "node_modules", "\\.cache", "^.git$$" }
 
+-- bufferline
+lvim.builtin.bufferline.options.always_show_bufferline = true
+lvim.keys.normal_mode["<C-H>"] = ":BufferLineMovePrev<cr>"
+lvim.keys.normal_mode["<C-L>"] = ":BufferLineMoveNext<cr>"
 
 
 -- if you don't want all the parsers change this to a table of the ones you want
